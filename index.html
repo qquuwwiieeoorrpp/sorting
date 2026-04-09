@@ -184,7 +184,7 @@
           `}</style>
 
           <div style={s.header} className="card">
-            <div style={s.badge}>2027 새학기 안내</div>
+            <div style={s.badge}>2025 새학기 안내</div>
             <h1 style={s.h1}>반배정 <span style={{color:"#c0392b"}}>조회</span></h1>
             <p style={s.subtext}>학생 이름을 입력하시면 배정된 반을 확인하실 수 있습니다.<br/>개인정보 보호를 위해 이름 조회만 제공됩니다.</p>
           </div>
@@ -317,4 +317,17 @@
       adminToggleBtn: { background: "none", border: "1px solid #d4bfb0", color: "#7a5c50", fontSize: 12, padding: "8px 20px", borderRadius: 20, cursor: "pointer", letterSpacing: 1, transition: "all 0.2s" },
       pwCard: { background: "#fffdf9", border: "1px solid #d4bfb0", borderRadius: 4, padding: "28px 32px", boxShadow: "0 2px 12px rgba(44,24,16,0.08)", position: "relative" },
       pwTitle: { fontFamily: "'Noto Serif KR', serif", fontSize: 16, fontWeight: 700, marginBottom: 10, color: "#2c1810" },
-      adminCard: { background: "#fffdf9", border: "1px solid #d4bfb0", borderRadius: 4, padding: "28px 32px", boxShadow: "0
+      adminCard: { background: "#fffdf9", border: "1px solid #d4bfb0", borderRadius: 4, padding: "28px 32px", boxShadow: "0 2px 12px rgba(44,24,16,0.08)" },
+      textarea: { width: "100%", padding: "12px 14px", fontSize: 13, border: "1.5px solid #d4bfb0", borderRadius: 3, background: "#fff", color: "#2c1810", resize: "vertical", lineHeight: 1.9 },
+      lockBtn: { background: "none", border: "1px solid #d4bfb0", color: "#7a5c50", fontSize: 12, padding: "4px 12px", borderRadius: 10, cursor: "pointer" },
+      footer: { marginTop: 60, fontSize: 11, color: "#7a5c50", opacity: 0.5, letterSpacing: 1, textAlign: "center" },
+      excelBox: { padding: "16px", background: "#fdf0ec", borderRadius: 4, border: "1.5px dashed #e8b4a0", marginTop: 16 },
+      excelTitle: { fontSize: 13, fontWeight: "bold", color: "#c0392b", marginBottom: 6 },
+      excelDesc: { fontSize: 11, color: "#7a5c50", lineHeight: 1.5 }
+    };
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<App />);
+  </script>
+</body>
+</html>
